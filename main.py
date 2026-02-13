@@ -1,13 +1,19 @@
 from utils.pdf_loader import extract_text
 from chunking.fixed_chunk import fixed_chunk
 from embedding.openai_embed import get_embedding
+from chunking.recursive_chunk import recursive_chunk
 from vectorstore.faiss_store import FAISSStore
+from chunking.semantic_chunk import semantic_chunk
+
 
 # 1. Load PDF
 text = extract_text(r"C:\MY_Folder\Github\RAG_DIfferent_Chunks_Usage\data\Sample_pdf.pdf")
 
 # 2. Chunk
-chunks = fixed_chunk(text, chunk_size=500, overlap=50)
+# chunks = fixed_chunk(text, chunk_size=500, overlap=50)
+# chunks = recursive_chunk(text, chunk_size=500, overlap=50)
+chunks = semantic_chunk(text, threshold=0.80)
+
 
 print(f"Total chunks created: {len(chunks)}")
 
