@@ -1,1 +1,1 @@
-# RAG_DIfferent_Chunks_Usage
+# RAG_Different_Chunks_Usage
