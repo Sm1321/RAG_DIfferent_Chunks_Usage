@@ -1,0 +1,9 @@
+openai
+langchain
+langchain-community
+faiss-cpu
+pdfplumber
+scikit-learn
+numpy
+python-dotenv
+tiktoken
