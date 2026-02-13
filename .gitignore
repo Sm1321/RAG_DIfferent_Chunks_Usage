@@ -1,2 +1,8 @@
 .env
 rag_chunking
+*.pdf
+__init__.py
+__init__.cpython-310.pyc
+*.pyc
+
+
