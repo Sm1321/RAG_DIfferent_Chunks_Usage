@@ -7,3 +7,7 @@ scikit-learn
 numpy
 python-dotenv
 tiktoken
+streamlit
+PyPDF2
+numpy
+pandas

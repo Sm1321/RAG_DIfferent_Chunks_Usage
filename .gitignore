@@ -6,3 +6,6 @@ __init__.cpython-310.pyc
 *.pyc
 
 
+.streamlit/secrets.toml
+secrets.toml
+
