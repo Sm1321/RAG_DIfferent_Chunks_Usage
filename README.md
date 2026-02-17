@@ -4,6 +4,7 @@ This document summarizes different chunking strategies, overlap configurations, 
 
 ---
 
+
 ## 🔹 1. Chunking Strategies Comparison
 
 | Strategy | How It Works | Advantages | Limitations | Recommended Use |
