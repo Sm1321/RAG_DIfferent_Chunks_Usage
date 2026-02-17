@@ -78,6 +78,7 @@ Example:
 - Adaptive chunking
 - Context window optimization
 
+
 ---
 
 ## 🔹 7. Industry Pattern (Recommended Setup)
