@@ -1,5 +1,6 @@
 # 📚 Chunking Strategies in RAG Systems
 
+
 This document summarizes different chunking strategies, overlap configurations, and production considerations used in Retrieval-Augmented Generation (RAG) systems.
 ---
 
